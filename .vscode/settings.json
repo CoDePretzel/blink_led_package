@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "pins.h": "c",
+        "port.h": "c",
+        "compiler.h": "c"
+    }
+}

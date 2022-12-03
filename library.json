@@ -1,6 +1,6 @@
 {
     "name": "Hola_LED_AVR128_MCHP_MCC",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "description": "Conjunto de bibliotecas creadas por Microchip MCC para el manejo de un GPIO en la tarjeta AVR128DA curiosity nano, así como una prueba de concepto de abstracción de nombres de funciones. El código generado por Microchip MCC solo puede ser usado en plataformas de la misma compañía y tienen su propia licencia. La licencia de esta biblioteca solo aplica a la configuración y a los archivos que no sean auto generados por Microchip MCC",
     "keywords": "POC, abstraccion, abstraction, AVR",
     "repository":
@@ -32,7 +32,7 @@
     ],
     "build": {
         "includeDir": "",
-        "flags": "-IC:/Program Files/Microchip/xc8/v2.40/avr/avr/include/avr",
+        "flags": "-std=c99",
         "libArchive": false,
         "": ""
     }
